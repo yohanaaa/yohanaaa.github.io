@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
     
     <title>Sorak Sorai Fest 2.0</title>
 
@@ -37,17 +38,25 @@
     margin: 0 auto;
     }
 
-    a {
-    color: maroon;
-    }
-    a:hover{
-        color:darkorange;
-    }
     .navbar {
     color:white;
     background-color:#E0BBE4;
     margin-top: 20px;
     }
+
+    .container {
+    margin:10%
+    }
+
+    .container img {
+    width:80%;
+    transition: all .2s ease-in-out;
+    }
+    
+    .container img:hover{
+    transform: scale(1.35);
+    }
+
  </style>
 
 </head>
@@ -62,14 +71,14 @@
 
 <!--NAVBAR-->
  <nav class="navbar navbar-expand-lg navbar-light" >
-    <a class="navbar-brand" href="#"><img src="logosq.png" width="50%"></a>
+    <a class="navbar-brand" href="#index.html"><img src="logosq.png" width="50%"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#index.html">HOME </a> <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#index.html">HOME </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about.html">ABOUT</a>
@@ -77,28 +86,63 @@
             <li class="nav-item">
               <a class="nav-link" href="#tickets.html">TICKETS</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#lineup.html">LINEUP </a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#lineup.html">LINEUP <span class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>
 </nav>
 
-<img src="indexxxx.gif" width="70%" 
+<img src="lineup.gif" width="30%" 
                         style=margin:5%>
 
 <div class="container">
     <div class="row">
       <div class="col-sm">
-      <a href="about.html"> <img src="about.png" 
-      width="60%"> </a>
+        <a href="tame.html" class="hvr-grow"> <img src="tame.png" 
+        > </a>
       </div>
       <div class="col-sm">
-      <a href="lineup.html"> <img src="lineup.png" width="60%"> </a>
+        <img src="day6.png" 
+        width="70%">
       </div>
       <div class="col-sm">
-        <img src="tickets.png"
-        width="60%">
+        <img src="max.png"
+        width="70%">
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img src="itzy.png" 
+        width="70%">
+      </div>
+      <div class="col-sm">
+        <img src="yerin.png" 
+        width="70%">
+      </div>
+      <div class="col-sm">
+        <img src="tulus.png"
+        width="70%">
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img src="naif.png" 
+        width="70%">
+      </div>
+      <div class="col-sm">
+        <img src="adams.png" 
+        width="70%">
+      </div>
+      <div class="col-sm">
+        <img src="svmmer.png"
+        width="70%">
       </div>
     </div>
 </div>
